@@ -12,6 +12,10 @@ body {
     clear: both;
 }
 
+section{
+    padding: 50px 0;
+}
+
 /* classi generiche per i btn */
 #btn-in{
     background-color: transparent;
@@ -145,10 +149,11 @@ header{
 /* inizio JUMBOTRON */
 .jumbotron{
     background-color: #0069ff;
-    background-image: url(/static/bg-home-hero-3-bb4b33b….svg);
+    background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
     background-size: cover;
     background-position: center;
     transform: translateZ(0);
+    margin-bottom: 0;
 }
 
 .text-jumbotron{
@@ -167,11 +172,11 @@ header{
     margin-top: 20px;
 }
 
+/* CARD JUMBOTRON */
 .card-jumbotron{
     background-color: white;
     border-radius: 10px;
     width: 100%;
-
 }
 
 .card-header{
@@ -242,8 +247,80 @@ header{
 }
 #terms-of-service a{
     color: white;
+}
+/* fine JUMBOTRON */
 
+/* inizio section business solution */
 
+#icon-business{
+    background-color: #f3f5f9;
+}
+
+#business-solution h6{
+    color: #5b6987;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.img-content{
+    margin-bottom: 20px;
+}
+
+.img-content img{
+    width: 140px;
+    height: 80px;
+    margin: 0 20px;
+}
+
+#business-solution a{
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0069ff;
+}
+#business-solution a:hover{
+    color: #1633ff;
+}
+
+/* fine section business solution */
+
+/* inizio section deploy */
+
+#deploy-header h2{
+    font-size:36px;
+    color: #031b4e;
+}
+
+ #deploy-header p{
+     font-size: 20px;
+     letter-spacing: 1px;
+     padding: 20px;
+     color: #5b6987;
+     margin-bottom: 40px;
+ }
+.list-deploy{
+    height: 100%;
+}
+
+.list-deploy ul {
+    list-style-type: none;
+}
+
+.list-deploy ul li{
+    padding: 20px 20px 0 20px;
+    border-left: 2px solid lightgray;
+
+}
+
+.list-deploy ul li a{
+    font-size: 16px;
+    color: #031b4e;
+    text-decoration: none;
+}
+
+#deploy .box{
+    max-width: 400px;
+    padding: 20px;
 }
 
 @media screen and (max-width: 992px) {
@@ -255,7 +332,8 @@ header{
         display: none;
     }
 
+    /* #deploy .box{
+        max-width: 300px;
+    } */
 
 }
-
-@media screen and (max-widht:)
