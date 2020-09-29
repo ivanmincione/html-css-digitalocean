@@ -18,6 +18,8 @@ body {
     border-color: #006aff;
     color: #006aff;
     font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
 }
 #btn-in:hover{
     background-color: #006aff;
@@ -29,11 +31,14 @@ body {
     border-color: transparent;
     color: #fff;
     font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* inizio HEADER */
 header{
     padding: 10px 20px;
+
 }
 /* nav top che scompare */
 .nav-top{
@@ -137,8 +142,109 @@ header{
     font-size: 20px;
 }
 
+/* inizio JUMBOTRON */
+.jumbotron{
+    background-color: #0069ff;
+    background-image: url(/static/bg-home-hero-3-bb4b33b….svg);
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(0);
+}
+
+.text-jumbotron{
+    padding: 100px 50px;
+}
+
+.jumbotron h1{
+    color: white;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.jumbotron p{
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.card-jumbotron{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.card-header{
+    background-color: #f3f5f9;
+    padding: 16px 0 12px 0;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.card-header h5{
+    color: #363636;
+    font-weight: 700;
+}
+
+.card-content{
+    margin: 10px 0;
+    padding: 0 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.card-content input{
+    padding: 16px;
+    border-color: 0.5px solid #e5e8ed;
+    margin: 5px;
+    color: #031b4e;
+    font-size: 16px;
+    width: 100%;
+}
+.card-content input:focus{
+    border-color: #0069ff;
+    outline: #0069ff;
+}
+
+#btn-deploy{
+    background-color: #006aff;
+    border-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    width: 100%;
+}
+
+.btn-card{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: transparent;
+    color: #006aff;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: #006aff;
+    border-radius: 5px;
+}
+
+.btn-card:hover{
+    color: black;
+}
+
+.card-footer-text{
+    width:100%;
+}
+
+#terms-of-service{
+    font-size: 12px;
+}
+#terms-of-service a{
+    color: white;
 
 
+}
 
 @media screen and (max-width: 992px) {
     .nav-top{
@@ -148,4 +254,8 @@ header{
     .navbar-nav{
         display: none;
     }
+
+
 }
+
+@media screen and (max-widht:)
