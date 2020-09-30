@@ -486,11 +486,29 @@ header{
 
 /* inizio section carousel bottom */
 .box-carousel{
-    max-width: 700px;
+    max-width: 100%;
     background-color: white;
+    box-shadow: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 auto;
 }
 
+.carousel-item-bottom i{
+    padding-top: 50%;
+}
 
+.carousel-bottom-footer{
+    padding-top: 20px;
+}
+
+.carousel-bottom-footer i{
+    color: #1633ff;
+}
+.carousel-bottom-footer i:first-of-type{
+    font-weight: bold;
+}
+/* fine section acrousel bottom */
 
 
 @media screen and (max-width: 992px) {
