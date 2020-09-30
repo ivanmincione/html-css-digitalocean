@@ -41,7 +41,7 @@ section{
 
 /* inizio HEADER */
 header{
-    padding: 10px 20px;
+    padding: 0 20px;
 
 }
 /* nav top che scompare */
@@ -51,7 +51,7 @@ header{
 }
 
 #row-nav-top{
-    padding:  10px;
+    padding: 0 10px;
     margin-bottom: 10px;
     border-bottom: 1px solid lightgray;
 
@@ -104,6 +104,10 @@ header{
 .navbar-default{
     border: none;
     background-color: white;
+}
+
+.navbar{
+    margin-bottom: 0;
 }
 
 .navbar-brand img{
@@ -173,10 +177,14 @@ header{
 }
 
 /* CARD JUMBOTRON */
+#card{
+    max-width: 100%;
+}
+
 .card-jumbotron{
     background-color: white;
     border-radius: 10px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .card-header{
@@ -286,6 +294,10 @@ header{
 /* fine section business solution */
 
 /* inizio section deploy */
+
+#deploy-header{
+    max-width: 800px;
+}
 
 #deploy-header h2{
     font-size:36px;
@@ -412,11 +424,74 @@ header{
 /* inizio section service */
 
 #service{
-    background-color: rgb(10, 59, 106);
+    background-color: #031b4e;
     background-image: url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
-
-
 }
+
+#service .service-header{
+    max-width: 700px;
+}
+
+#service .service-header h2{
+    font-size: 36px;
+    color: white;
+}
+
+#service .service-header p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#service .service-header a{
+    color: #0069ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+#service .service-header a:hover{
+    color: #1633ff;
+}
+
+.list-city ul li{
+    list-style: none;
+    color: white;
+    float: left;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.list-city ul li span{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.list-city ul li p{
+    display: inline-block;
+    width: 300px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.list-city ul li a{
+    color: #00D7D2;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.list-city ul li a:hover{
+    color: #1633ff;
+}
+/* fine section service */
+
+/* inizio section carousel bottom */
+.box-carousel{
+    max-width: 700px;
+    background-color: white;
+}
+
+
+
 
 @media screen and (max-width: 992px) {
     .nav-top{
