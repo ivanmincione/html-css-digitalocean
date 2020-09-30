@@ -342,6 +342,10 @@ header{
 /* fine section deploy */
 
 /* inizio section carousel */
+#carousel{
+    background-color: #f3f5f9;
+}
+
 #caousel h2{
     font-size:36px;
     color: #031b4e;
@@ -402,6 +406,16 @@ header{
 }
 .built-box a:hover{
     color: #1633ff;
+}
+/* fine section built */
+
+/* inizio section service */
+
+#service{
+    background-color: rgb(10, 59, 106);
+    background-image: url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
+
+
 }
 
 @media screen and (max-width: 992px) {
