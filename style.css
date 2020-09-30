@@ -42,6 +42,7 @@ section{
 /* inizio HEADER */
 header{
     padding: 0 20px;
+    background-color: white;
 
 }
 /* nav top che scompare */
@@ -54,7 +55,6 @@ header{
     padding: 0 10px;
     margin-bottom: 10px;
     border-bottom: 1px solid lightgray;
-
 }
 
 .nav-top-left{
@@ -69,7 +69,6 @@ header{
     font-size: 9px;
     font-weight: bold;
     padding: 6px 6px;
-
 }
 
 .nav-top-left a{
@@ -468,7 +467,7 @@ header{
 }
 .list-city ul li p{
     display: inline-block;
-    width: 300px;
+    width: 200px;
     padding-left: 20px;
     font-size: 12px;
 }
@@ -477,6 +476,7 @@ header{
     color: #00D7D2;
     font-size: 12px;
     text-decoration: none;
+
 }
 
 .list-city ul li a:hover{
@@ -527,8 +527,10 @@ header{
     padding: 20px;
     border-radius: 10px;
     max-width: 200px;
-
-
+}
+.started-link:hover{
+    background-color: rgba(225,225,225,0.9);
+    cursor: pointer;
 }
 
 .started-link a{
@@ -536,6 +538,66 @@ header{
     font-weight: bold;
     color: #0069FF;
 }
+/* fine section started */
+
+/* inizio footer */
+#footer{
+    background-color: #010e28;
+    padding: 50px;
+}
+
+#footer .column{
+    float: left;
+}
+
+.column h6{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.column ul li{
+
+    list-style-type: none;
+}
+
+.column ul li a{
+    color: #ffffff80;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.column ul li a:hover{
+    color: white;
+}
+
+.icon-footer-bottom{
+    border-top: 1px solid white;
+    margin-top: 40px;
+}
+
+.icon-footer-bottom img{
+    padding: 20px;
+
+
+}
+.icon-footer-bottom p{
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff80;
+}
+
+.icon-footer-bottom i{
+    padding: 40px 20px;
+    font-size: 20px;
+    color: #ffffff80;
+}
+.icon-footer-bottom i:hover{
+    color: white;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 992px) {
     .nav-top{
