@@ -157,6 +157,7 @@ header{
     background-position: center;
     transform: translateZ(0);
     margin-bottom: 0;
+    padding-top: 200px;
 }
 
 .text-jumbotron{
@@ -251,7 +252,7 @@ header{
 }
 
 #terms-of-service{
-    font-size: 12px;
+    font-size: 14px;
 }
 #terms-of-service a{
     color: white;
@@ -322,8 +323,6 @@ header{
 .list-deploy ul li{
     padding: 20px 20px 0 20px;
     border-left: 2px solid lightgray;
-    /* display: inline; */
-
 }
 
 .list-deploy ul li a{
@@ -520,13 +519,16 @@ header{
     color: white;
     font-size: 36px;
     font-weight: bold;
+    display: block;
+    text-align: center;
 }
 
 .started-link{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    max-width: 200px;
+    text-align: center;
+    display: block;
 }
 .started-link:hover{
     background-color: rgba(225,225,225,0.9);
@@ -537,6 +539,7 @@ header{
     font-size: 16px;
     font-weight: bold;
     color: #0069FF;
+
 }
 /* fine section started */
 
@@ -626,4 +629,10 @@ header{
         margin-bottom: 20px;
     }
 
+}
+
+@media screen and ( min-width: 768px ){
+    .started-link{
+        max-width: 100%;
+    }
 }
