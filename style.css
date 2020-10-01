@@ -200,15 +200,14 @@ header{
 }
 
 .card-content{
-    margin: 10px 0;
+    margin-top: 10px;
     padding: 0 30px;
     border-bottom: 1px solid lightgray;
 }
 
 .card-content input{
     padding: 16px;
-    border-color: 0.5px solid #e5e8ed;
-    margin: 5px;
+    margin: 5px 0;
     color: #031b4e;
     font-size: 16px;
     width: 100%;
@@ -228,13 +227,12 @@ header{
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 30px;
-    margin-left: 5px;
     width: 100%;
 }
 
 .btn-card{
     margin: 20px 0;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: transparent;
     color: #006aff;
     font-size: 16px;
@@ -454,9 +452,9 @@ header{
 .list-city ul li{
     list-style: none;
     color: white;
-    float: left;
     border-bottom: 1px solid lightgray;
     padding: 10px;
+    display: inline-block;
 }
 
 .list-city ul li span{
@@ -467,7 +465,7 @@ header{
 .list-city ul li p{
     display: inline-block;
     width: 200px;
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 12px;
 }
 
@@ -494,7 +492,7 @@ header{
 }
 
 .carousel-item-bottom i{
-    padding-top: 50%;
+    padding-top: 100px;
 }
 
 .carousel-bottom-footer{
@@ -520,7 +518,7 @@ header{
     font-size: 36px;
     font-weight: bold;
     display: block;
-    text-align: center;
+    
 }
 
 .started-link{
@@ -611,6 +609,10 @@ header{
         display: none;
     }
 
+    .jumbotron h1{
+        font-size: 50px;
+    }
+
     .list-deploy{
         text-align: center;
     }
@@ -629,10 +631,24 @@ header{
         margin-bottom: 20px;
     }
 
+    .list-city ul li span{
+        display: none;
+    }
+
+    .list-city ul li p{
+        max-width: 150px;
+        padding-left: 0;
+    }
+
 }
 
-@media screen and ( min-width: 768px ){
+@media screen and ( max-width: 768px ){
     .started-link{
         max-width: 100%;
     }
+
+    .started-title{
+        text-align: center;
+    }
+
 }
