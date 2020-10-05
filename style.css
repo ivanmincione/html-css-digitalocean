@@ -98,7 +98,7 @@ header{
 
 .nav-top-right{
     float: right;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .nav-top-right a{
@@ -338,6 +338,7 @@ header{
 
 .list-deploy ul {
     list-style-type: none;
+
 }
 
 .list-deploy ul li{
@@ -489,17 +490,19 @@ header{
     border-bottom: 1px solid lightgray;
     padding: 10px;
     display: inline-block;
+    width: 100%;
 }
 
 .list-city ul li span{
     color: white;
     font-weight: bold;
     font-size: 12px;
+    width: 10%;
 }
 
 .list-city ul li p{
     display: inline-block;
-    width: 200px;
+    width: calc(100% - 30%);
     padding-left: 10px;
     font-size: 12px;
 }
@@ -508,6 +511,7 @@ header{
     color: #00D7D2;
     font-size: 12px;
     text-decoration: none;
+    width: 20%;
 }
 
 .list-city ul li a:hover{
@@ -668,6 +672,9 @@ header{
 
     .list-deploy{
         text-align: center;
+    }
+    .list-deploy ul{
+        padding-left: 0;
     }
     .list-deploy ul li{
         display: inline;
